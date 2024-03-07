@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DE55B8B2B731F8900E6E7C3 /* Wallet_swiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55B8A2B731F8900E6E7C3 /* Wallet_swiftUIApp.swift */; };
-		0DE55B8D2B731F8900E6E7C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55B8C2B731F8900E6E7C3 /* ContentView.swift */; };
+		0D7F10CC2B8236A000264436 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F10CB2B8236A000264436 /* Font+Extension.swift */; };
+		0D7F10D12B823BAF00264436 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F10CD2B823BAF00264436 /* NotoSansKR-Black.otf */; };
+		0D7F10D22B823BAF00264436 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F10CE2B823BAF00264436 /* NotoSansCJKkr-Bold.otf */; };
+		0D7F10D32B823BAF00264436 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F10CF2B823BAF00264436 /* NotoSansCJKkr-Regular.otf */; };
+		0D7F10D42B823BAF00264436 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F10D02B823BAF00264436 /* NotoSansCJKkr-Medium.otf */; };
 		0DE55B8F2B731F8A00E6E7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */; };
 		0DE55B922B731F8A00E6E7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE55B912B731F8A00E6E7C3 /* Preview Assets.xcassets */; };
 		0DE55B9C2B731F8A00E6E7C3 /* Wallet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55B9B2B731F8A00E6E7C3 /* Wallet_swiftUITests.swift */; };
 		0DE55BA62B731F8A00E6E7C3 /* Wallet_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BA52B731F8A00E6E7C3 /* Wallet_swiftUIUITests.swift */; };
 		0DE55BA82B731F8A00E6E7C3 /* Wallet_swiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BA72B731F8A00E6E7C3 /* Wallet_swiftUIUITestsLaunchTests.swift */; };
+		0DE55BBC2B74CE8200E6E7C3 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE55BBB2B74CE8200E6E7C3 /* Color.xcassets */; };
+		0DE55BC02B74D44100E6E7C3 /* Wallet_swiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BBF2B74D44100E6E7C3 /* Wallet_swiftUIApp.swift */; };
+		0DE55BC22B74D5E300E6E7C3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BC12B74D5E300E6E7C3 /* RootView.swift */; };
+		0DE55BC42B74D63800E6E7C3 /* WalletMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BC32B74D63800E6E7C3 /* WalletMainView.swift */; };
+		0DE55BC62B74DA4F00E6E7C3 /* IntroduceMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BC52B74DA4F00E6E7C3 /* IntroduceMainView.swift */; };
+		0DE55BC82B74DB4900E6E7C3 /* MyMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BC72B74DB4900E6E7C3 /* MyMainView.swift */; };
+		0DE55BCB2B74E1AD00E6E7C3 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55BCA2B74E1AD00E6E7C3 /* CALayer+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D7F10CB2B8236A000264436 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		0D7F10CD2B823BAF00264436 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		0D7F10CE2B823BAF00264436 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		0D7F10CF2B823BAF00264436 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		0D7F10D02B823BAF00264436 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
 		0DE55B872B731F8900E6E7C3 /* Wallet-swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet-swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DE55B8A2B731F8900E6E7C3 /* Wallet_swiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet_swiftUIApp.swift; sourceTree = "<group>"; };
-		0DE55B8C2B731F8900E6E7C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE55B912B731F8A00E6E7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DE55B972B731F8A00E6E7C3 /* Wallet-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wallet-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,14 @@
 		0DE55BA12B731F8A00E6E7C3 /* Wallet-swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wallet-swiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE55BA52B731F8A00E6E7C3 /* Wallet_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet_swiftUIUITests.swift; sourceTree = "<group>"; };
 		0DE55BA72B731F8A00E6E7C3 /* Wallet_swiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet_swiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DE55BBB2B74CE8200E6E7C3 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		0DE55BBF2B74D44100E6E7C3 /* Wallet_swiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet_swiftUIApp.swift; sourceTree = "<group>"; };
+		0DE55BC12B74D5E300E6E7C3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0DE55BC32B74D63800E6E7C3 /* WalletMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletMainView.swift; sourceTree = "<group>"; };
+		0DE55BC52B74DA4F00E6E7C3 /* IntroduceMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceMainView.swift; sourceTree = "<group>"; };
+		0DE55BC72B74DB4900E6E7C3 /* MyMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMainView.swift; sourceTree = "<group>"; };
+		0DE55BCA2B74E1AD00E6E7C3 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		0DE55BCC2B74F63400E6E7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D7F10C22B82365400264436 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0D7F10CE2B823BAF00264436 /* NotoSansCJKkr-Bold.otf */,
+				0D7F10D02B823BAF00264436 /* NotoSansCJKkr-Medium.otf */,
+				0D7F10CF2B823BAF00264436 /* NotoSansCJKkr-Regular.otf */,
+				0D7F10CD2B823BAF00264436 /* NotoSansKR-Black.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		0DE55B7E2B731F8900E6E7C3 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +126,11 @@
 		0DE55B892B731F8900E6E7C3 /* Wallet-swiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				0DE55B8A2B731F8900E6E7C3 /* Wallet_swiftUIApp.swift */,
-				0DE55B8C2B731F8900E6E7C3 /* ContentView.swift */,
-				0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */,
+				0DE55BCC2B74F63400E6E7C3 /* Info.plist */,
+				0DE55BBD2B74CE8C00E6E7C3 /* Resource */,
+				0DE55BB52B73245200E6E7C3 /* Domain */,
+				0DE55BB42B73244D00E6E7C3 /* Data */,
+				0DE55BB62B73245C00E6E7C3 /* Presentation */,
 				0DE55B902B731F8A00E6E7C3 /* Preview Content */,
 			);
 			path = "Wallet-swiftUI";
@@ -106,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				0DE55B912B731F8A00E6E7C3 /* Preview Assets.xcassets */,
+				0DE55BBF2B74D44100E6E7C3 /* Wallet_swiftUIApp.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,6 +160,67 @@
 				0DE55BA72B731F8A00E6E7C3 /* Wallet_swiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Wallet-swiftUIUITests";
+			sourceTree = "<group>";
+		};
+		0DE55BB42B73244D00E6E7C3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0DE55BB52B73245200E6E7C3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0DE55BB62B73245C00E6E7C3 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0DE55BC92B74E1A200E6E7C3 /* Extension */,
+				0DE55BBE2B74D1DF00E6E7C3 /* ViewModel */,
+				0DE55BB92B74CD7A00E6E7C3 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0DE55BB92B74CD7A00E6E7C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DE55BC12B74D5E300E6E7C3 /* RootView.swift */,
+				0DE55BC32B74D63800E6E7C3 /* WalletMainView.swift */,
+				0DE55BC52B74DA4F00E6E7C3 /* IntroduceMainView.swift */,
+				0DE55BC72B74DB4900E6E7C3 /* MyMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DE55BBD2B74CE8C00E6E7C3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0D7F10C22B82365400264436 /* Font */,
+				0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */,
+				0DE55BBB2B74CE8200E6E7C3 /* Color.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0DE55BBE2B74D1DF00E6E7C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0DE55BC92B74E1A200E6E7C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DE55BCA2B74E1AD00E6E7C3 /* CALayer+Extension.swift */,
+				0D7F10CB2B8236A000264436 /* Font+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +328,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE55B922B731F8A00E6E7C3 /* Preview Assets.xcassets in Resources */,
+				0D7F10D42B823BAF00264436 /* NotoSansCJKkr-Medium.otf in Resources */,
+				0D7F10D32B823BAF00264436 /* NotoSansCJKkr-Regular.otf in Resources */,
+				0D7F10D22B823BAF00264436 /* NotoSansCJKkr-Bold.otf in Resources */,
 				0DE55B8F2B731F8A00E6E7C3 /* Assets.xcassets in Resources */,
+				0DE55BBC2B74CE8200E6E7C3 /* Color.xcassets in Resources */,
+				0D7F10D12B823BAF00264436 /* NotoSansKR-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE55B8D2B731F8900E6E7C3 /* ContentView.swift in Sources */,
-				0DE55B8B2B731F8900E6E7C3 /* Wallet_swiftUIApp.swift in Sources */,
+				0DE55BC62B74DA4F00E6E7C3 /* IntroduceMainView.swift in Sources */,
+				0DE55BC42B74D63800E6E7C3 /* WalletMainView.swift in Sources */,
+				0DE55BC02B74D44100E6E7C3 /* Wallet_swiftUIApp.swift in Sources */,
+				0DE55BC82B74DB4900E6E7C3 /* MyMainView.swift in Sources */,
+				0DE55BCB2B74E1AD00E6E7C3 /* CALayer+Extension.swift in Sources */,
+				0D7F10CC2B8236A000264436 /* Font+Extension.swift in Sources */,
+				0DE55BC22B74D5E300E6E7C3 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,9 +526,9 @@
 				DEVELOPMENT_TEAM = NTYDA3DPGG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wallet-swiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +555,9 @@
 				DEVELOPMENT_TEAM = NTYDA3DPGG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wallet-swiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
