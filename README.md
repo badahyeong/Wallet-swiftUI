@@ -1,77 +1,78 @@
 
-#가상화폐 자산 확인 서비스 앱
-##프로젝트 소개
+# 가상화폐 자산 확인 서비스 앱
+## 프로젝트 소개
 * 기존 개발되어 있던 블록체인 월렛 앱 SwiftUI 적용하여 변경
 * 테스트 데이터를 사용하여 데이터 노출
 
-###1.개발환경
+### 1. 화면
+[메인]
+
+### 2.개발환경
 - Swift
 - SwiftUI
 - Sourcetree
 
 
-###2.프로젝트 구조
-📦Wallet-swiftUI
- ┣ 📂Domain
- ┃ ┣ 📂Entities
- ┃ ┃ ┗ 📜WalletMainList.swift
- ┃ ┗ 📂Enum
- ┃ ┃ ┗ 📜CoinType.swift
- ┣ 📂Helpers
- ┃ ┗ 📜Utils.swift
- ┣ 📂Presentation
- ┃ ┣ 📂Extension
- ┃ ┃ ┣ 📜CALayer+Extension.swift
- ┃ ┃ ┣ 📜Double+Extension.swift
- ┃ ┃ ┣ 📜Font+Extension.swift
- ┃ ┃ ┣ 📜String+Extension.swift
- ┃ ┃ ┗ 📜WalletMainViewModel.swift
- ┃ ┣ 📂New Group
- ┃ ┣ 📂Row
- ┃ ┃ ┗ 📜WalletMainListRow .swift
- ┃ ┗ 📂View
- ┃ ┃ ┣ 📜IntroduceMainView.swift
- ┃ ┃ ┣ 📜MyMainView.swift
- ┃ ┃ ┣ 📜RootView.swift
- ┃ ┃ ┗ 📜WalletMainView.swift
- ┣ 📂Preview Content
- ┃ ┣ 📂Preview Assets.xcassets
- ┃ ┃ ┗ 📜Contents.json
- ┃ ┗ 📜Wallet_swiftUIApp.swift
- ┣ 📂Resource
- ┃ ┣ 📂Assets.xcassets
- ┃ ┃ ┣ 📂AccentColor.colorset
- ┃ ┃ ┃ ┗ 📜Contents.json
- ┃ ┃ ┣ 📂AppIcon.appiconset
- ┃ ┃ ┃ ┣ 📜Contents.json
-             *
-             *
-             *
- ┃ ┃ ┣ 📂AppIcon.dev.appiconset
- ┃ ┃ ┣ 📂AppSplash.imageset
- ┃ ┃ ┗ 📜Contents.json
- ┃ ┣ 📂Color.xcassets
- ┃ ┃ ┣ 📂#VeryLightBlue.colorset
- ┃ ┃ ┃ ┗ 📜Contents.json
- ┃ ┃ ┣ 📂#azure.colorset
- ┃ ┃ ┃ ┗ 📜Contents.json
-             *
-             *
-             *
- ┃ ┃ ┣ 📂#battleship grey.colorset
- ┃ ┃ ┃ ┗ 📜Contents.json
- ┃ ┃ ┗ 📜Contents.json
- ┃ ┣ 📂Font
- ┃ ┃ ┣ 📜NotoSansCJKkr-Bold.otf
- ┃ ┃ ┣ 📜NotoSansCJKkr-Medium.otf
- ┃ ┃ ┣ 📜NotoSansCJKkr-Regular.otf
- ┃ ┃ ┗ 📜NotoSansKR-Black.otf
- ┃ ┗ 📜.DS_Store
- ┣ 📜.DS_Store
- ┣ 📜Color+Extension.swift
- ┗ 📜Info.plist
+### 3.프로젝트 구조
 
+📦Wallet-swiftUI<br />
+ ┣ 📂Domain<br />
+ ┃ ┣ 📂Entities<br />
+ ┃ ┃ ┗ 📜WalletMainList.swift<br />
+ ┃ ┗ 📂Enum<br />
+ ┃ ┃ ┗ 📜CoinType.swift<br />
+ ┣ 📂Helpers<br />
+ ┃ ┗ 📜Utils.swift<br />
+ ┣ 📂Presentation<br />
+ ┃ ┣ 📂Extension<br />
+ ┃ ┃ ┣ 📜CALayer+Extension.swift<br />
+ ┃ ┃ ┣ 📜Double+Extension.swift<br />
+ ┃ ┃ ┣ 📜Font+Extension.swift<br />
+ ┃ ┃ ┣ 📜String+Extension.swift<br />
+ ┃ ┃ ┗ 📜WalletMainViewModel.swift<br />
+ ┃ ┣ 📂New Group<br />
+ ┃ ┣ 📂Row<br />
+ ┃ ┃ ┗ 📜WalletMainListRow .swift<br />
+ ┃ ┗ 📂View<br />
+ ┃ ┃ ┣ 📜IntroduceMainView.swift<br />
+ ┃ ┃ ┣ 📜MyMainView.swift<br />
+ ┃ ┃ ┣ 📜RootView.swift<br />
+ ┃ ┃ ┗ 📜WalletMainView.swift<br />
+ ┣ 📂Preview Content<br />
+ ┃ ┣ 📂Preview Assets.xcassets<br />
+ ┃ ┃ ┗ 📜Contents.json<br />
+ ┃ ┗ 📜Wallet_swiftUIApp.swift<br />
+ ┣ 📂Resource<br />
+ ┃ ┣ 📂Assets.xcassets<br />
+ ┃ ┃ ┣ 📂AccentColor.colorset<br />
+ ┃ ┃ ┃ ┗ 📜Contents.json<br />
+ ┃ ┃ ┣ 📂AppIcon.appiconset<br />
+ ┃ ┃ ┃ ┣ 📜Contents.json<br />
+             *<br />
+             *<br />
+             *<br />
+ ┃ ┃ ┣ 📂AppIcon.dev.appiconset<br />
+ ┃ ┃ ┣ 📂AppSplash.imageset<br />
+ ┃ ┃ ┗ 📜Contents.json<br />
+ ┃ ┣ 📂Color.xcassets<br />
+ ┃ ┃ ┣ 📂#VeryLightBlue.colorset<br />
+ ┃ ┃ ┃ ┗ 📜Contents.json<br />
+ ┃ ┃ ┣ 📂#azure.colorset<br />
+ ┃ ┃ ┃ ┗ 📜Contents.json<br />
+             *<br />
+             *<br />
+             *<br />
+ ┃ ┃ ┣ 📂#battleship grey.colorset<br />
+ ┃ ┃ ┃ ┗ 📜Contents.json<br />
+ ┃ ┃ ┗ 📜Contents.json<br />
+ ┃ ┣ 📂Font<br />
+ ┃ ┃ ┣ 📜NotoSansCJKkr-Bold.otf<br />
+ ┃ ┃ ┣ 📜NotoSansCJKkr-Medium.otf<br />
+ ┃ ┃ ┣ 📜NotoSansCJKkr-Regular.otf<br />
+ ┃ ┃ ┗ 📜NotoSansKR-Black.otf<br />
+ ┃ ┗ 📜.DS_Store<br />
+ ┣ 📜.DS_Store<br />
+ ┣ 📜Color+Extension.swift<br />
+ ┗ 📜Info.plist<br />
 
- ###3.화면
- [메인]
  
