@@ -5,8 +5,8 @@
 * 테스트 데이터를 사용하여 데이터 노출
 
 ### 1. 화면
-[메인]
-
+[메인]<br />
+![Simulator Screenshot - iPhone 15 Pro - 2024-03-16 at 18 22 05](https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/771c06a2-a4d7-46d8-bf4a-e96b727a27af)
 ### 2.개발환경
 - Swift
 - SwiftUI
