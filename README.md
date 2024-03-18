@@ -6,7 +6,11 @@
 
 ### 1. 화면
 [메인]<br />
-![Simulator Screenshot - iPhone 15 Pro - 2024-03-16 at 18 22 05](https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/771c06a2-a4d7-46d8-bf4a-e96b727a27af)
+<br />
+![Simulator Screenshot - iPhone 15 Pro - 2024-03-16 at 18 22 05](https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/771c06a2-a4d7-46d8-bf4a-e96b727a27af)<br />
+*List사용<br />
+*24년3월15일 환율 적용<br />
+<br />
 ### 2.개발환경
 - Swift
 - SwiftUI
