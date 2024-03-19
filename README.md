@@ -7,7 +7,10 @@
 ### 1. 화면
 [메인]<br />
 <br />
-![Simulator Screenshot - iPhone 15 Pro - 2024-03-16 at 18 22 05](https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/771c06a2-a4d7-46d8-bf4a-e96b727a27af)<br />
+
+<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/e35dc19c-0793-41b8-9616-6db5936aa3b3"  width="200" height="400"/>
+<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/5868e6a9-733d-4b64-b744-410e0c775f44"  width="200" height="400"/>
+<br />
 *List사용<br />
 *24년3월15일 환율 적용<br />
 <br />
