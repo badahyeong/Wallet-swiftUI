@@ -20,6 +20,8 @@
 		0DE027EB2BA2D2B000095402 /* CoinType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027EA2BA2D2B000095402 /* CoinType.swift */; };
 		0DE027ED2BA4214A00095402 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027EC2BA4214A00095402 /* Double+Extension.swift */; };
 		0DE027EF2BA4217D00095402 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027EE2BA4217D00095402 /* String+Extension.swift */; };
+		0DE027F12BA95C7500095402 /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027F02BA95C7500095402 /* FloatingButtonView.swift */; };
+		0DE027F32BA969D000095402 /* DimmingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027F22BA969D000095402 /* DimmingManager.swift */; };
 		0DE55B8F2B731F8A00E6E7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */; };
 		0DE55B922B731F8A00E6E7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE55B912B731F8A00E6E7C3 /* Preview Assets.xcassets */; };
 		0DE55B9C2B731F8A00E6E7C3 /* Wallet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55B9B2B731F8A00E6E7C3 /* Wallet_swiftUITests.swift */; };
@@ -65,6 +67,8 @@
 		0DE027EA2BA2D2B000095402 /* CoinType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinType.swift; sourceTree = "<group>"; };
 		0DE027EC2BA4214A00095402 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		0DE027EE2BA4217D00095402 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0DE027F02BA95C7500095402 /* FloatingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonView.swift; sourceTree = "<group>"; };
+		0DE027F22BA969D000095402 /* DimmingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingManager.swift; sourceTree = "<group>"; };
 		0DE55B872B731F8900E6E7C3 /* Wallet-swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet-swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE55B912B731F8A00E6E7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 		0DE027DC2B9AFEEB00095402 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				0DE027F22BA969D000095402 /* DimmingManager.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				0DE55BC32B74D63800E6E7C3 /* WalletMainView.swift */,
 				0DE55BC52B74DA4F00E6E7C3 /* IntroduceMainView.swift */,
 				0DE55BC72B74DB4900E6E7C3 /* MyMainView.swift */,
+				0DE027F02BA95C7500095402 /* FloatingButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -429,6 +435,7 @@
 				0DE55BC42B74D63800E6E7C3 /* WalletMainView.swift in Sources */,
 				0DE55BC02B74D44100E6E7C3 /* Wallet_swiftUIApp.swift in Sources */,
 				0DE027DB2B9AF8E100095402 /* WalletMainViewModel.swift in Sources */,
+				0DE027F32BA969D000095402 /* DimmingManager.swift in Sources */,
 				0DE55BC82B74DB4900E6E7C3 /* MyMainView.swift in Sources */,
 				0DE027E52BA2CE3800095402 /* WalletMainListRow .swift in Sources */,
 				0DE027E02B9AFF7800095402 /* Utils.swift in Sources */,
@@ -436,6 +443,7 @@
 				0D7F10CC2B8236A000264436 /* Font+Extension.swift in Sources */,
 				0DE55BC22B74D5E300E6E7C3 /* RootView.swift in Sources */,
 				0DE027EF2BA4217D00095402 /* String+Extension.swift in Sources */,
+				0DE027F12BA95C7500095402 /* FloatingButtonView.swift in Sources */,
 				0DE027D82B9ADCBB00095402 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
