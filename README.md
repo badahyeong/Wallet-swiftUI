@@ -8,8 +8,9 @@
 [메인]<br />
 <br />
 
-<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/e35dc19c-0793-41b8-9616-6db5936aa3b3"  width="200" height="400"/>
-<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/5868e6a9-733d-4b64-b744-410e0c775f44"  width="200" height="400"/>
+<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/dc644f43-191a-4433-a9b2-9730cfbe4ea0"  width="200" height="400"/>
+<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/6fdca887-e5b2-4418-b985-268e258c1893"  width="200" height="400"/>
+
 <br />
 *List사용<br />
 *24년3월15일 환율 적용<br />
