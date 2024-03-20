@@ -9,7 +9,7 @@
 <br />
 
 <img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/dc644f43-191a-4433-a9b2-9730cfbe4ea0"  width="200" height="400"/>
-<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/6fdca887-e5b2-4418-b985-268e258c1893"  width="200" height="400"/>
+<img src="https://github.com/badahyeong/Wallet-swiftUI/assets/162557362/5c2914e1-806c-4a26-b004-b28222bcdb99"  width="200" height="400"/>
 
 <br />
 *List사용<br />
