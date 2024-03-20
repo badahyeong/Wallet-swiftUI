@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1E66FD2BAAF12D00D17ED9 /* WalletManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1E66FC2BAAF12D00D17ED9 /* WalletManageView.swift */; };
 		0D7F10CC2B8236A000264436 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F10CB2B8236A000264436 /* Font+Extension.swift */; };
 		0D7F10D12B823BAF00264436 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F10CD2B823BAF00264436 /* NotoSansKR-Black.otf */; };
 		0D7F10D22B823BAF00264436 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D7F10CE2B823BAF00264436 /* NotoSansCJKkr-Bold.otf */; };
@@ -22,6 +23,8 @@
 		0DE027EF2BA4217D00095402 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027EE2BA4217D00095402 /* String+Extension.swift */; };
 		0DE027F12BA95C7500095402 /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027F02BA95C7500095402 /* FloatingButtonView.swift */; };
 		0DE027F32BA969D000095402 /* DimmingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027F22BA969D000095402 /* DimmingManager.swift */; };
+		0DE027F52BAABD8700095402 /* CoinManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027F42BAABD8700095402 /* CoinManageView.swift */; };
+		0DE027F72BAAE1FC00095402 /* ViewAllAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE027F62BAAE1FC00095402 /* ViewAllAssetsView.swift */; };
 		0DE55B8F2B731F8A00E6E7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */; };
 		0DE55B922B731F8A00E6E7C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE55B912B731F8A00E6E7C3 /* Preview Assets.xcassets */; };
 		0DE55B9C2B731F8A00E6E7C3 /* Wallet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE55B9B2B731F8A00E6E7C3 /* Wallet_swiftUITests.swift */; };
@@ -54,13 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1E66FC2BAAF12D00D17ED9 /* WalletManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletManageView.swift; sourceTree = "<group>"; };
 		0D7F10CB2B8236A000264436 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		0D7F10CD2B823BAF00264436 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
 		0D7F10CE2B823BAF00264436 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
 		0D7F10CF2B823BAF00264436 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		0D7F10D02B823BAF00264436 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
 		0DE027D72B9ADCBB00095402 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		0DE027DA2B9AF8E100095402 /* WalletMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WalletMainViewModel.swift; path = "Wallet-swiftUI/Presentation/Extension/WalletMainViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		0DE027DA2B9AF8E100095402 /* WalletMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WalletMainViewModel.swift; path = "Wallet-swiftUI/Presentation/ViewModel/WalletMainViewModel.swift"; sourceTree = SOURCE_ROOT; };
 		0DE027DF2B9AFF7800095402 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		0DE027E42BA2CE3800095402 /* WalletMainListRow .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalletMainListRow .swift"; sourceTree = "<group>"; };
 		0DE027E72BA2D11600095402 /* WalletMainList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletMainList.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 		0DE027EE2BA4217D00095402 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		0DE027F02BA95C7500095402 /* FloatingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonView.swift; sourceTree = "<group>"; };
 		0DE027F22BA969D000095402 /* DimmingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingManager.swift; sourceTree = "<group>"; };
+		0DE027F42BAABD8700095402 /* CoinManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManageView.swift; sourceTree = "<group>"; };
+		0DE027F62BAAE1FC00095402 /* ViewAllAssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllAssetsView.swift; sourceTree = "<group>"; };
 		0DE55B872B731F8900E6E7C3 /* Wallet-swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet-swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE55B8E2B731F8A00E6E7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE55B912B731F8A00E6E7C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -112,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1E66F92BAAE38700D17ED9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0DE027DA2B9AF8E100095402 /* WalletMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		0D7F10C22B82365400264436 /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,14 +142,6 @@
 			children = (
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		0DE027D92B9AF8AE00095402 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				0DE027DA2B9AF8E100095402 /* WalletMainViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		0DE027DC2B9AFEEB00095402 /* New Group */ = {
@@ -253,7 +259,7 @@
 			children = (
 				0DE027DC2B9AFEEB00095402 /* New Group */,
 				0DE55BC92B74E1A200E6E7C3 /* Extension */,
-				0DE027D92B9AF8AE00095402 /* ViewModel */,
+				0D1E66F92BAAE38700D17ED9 /* ViewModel */,
 				0DE55BB92B74CD7A00E6E7C3 /* View */,
 				0DE027E12BA2CBE100095402 /* Row */,
 			);
@@ -265,9 +271,12 @@
 			children = (
 				0DE55BC12B74D5E300E6E7C3 /* RootView.swift */,
 				0DE55BC32B74D63800E6E7C3 /* WalletMainView.swift */,
+				0DE027F02BA95C7500095402 /* FloatingButtonView.swift */,
+				0DE027F62BAAE1FC00095402 /* ViewAllAssetsView.swift */,
+				0DE027F42BAABD8700095402 /* CoinManageView.swift */,
+				0D1E66FC2BAAF12D00D17ED9 /* WalletManageView.swift */,
 				0DE55BC52B74DA4F00E6E7C3 /* IntroduceMainView.swift */,
 				0DE55BC72B74DB4900E6E7C3 /* MyMainView.swift */,
-				0DE027F02BA95C7500095402 /* FloatingButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -430,6 +439,8 @@
 			files = (
 				0DE55BC62B74DA4F00E6E7C3 /* IntroduceMainView.swift in Sources */,
 				0DE027E82BA2D11600095402 /* WalletMainList.swift in Sources */,
+				0DE027F52BAABD8700095402 /* CoinManageView.swift in Sources */,
+				0DE027F72BAAE1FC00095402 /* ViewAllAssetsView.swift in Sources */,
 				0DE027ED2BA4214A00095402 /* Double+Extension.swift in Sources */,
 				0DE027EB2BA2D2B000095402 /* CoinType.swift in Sources */,
 				0DE55BC42B74D63800E6E7C3 /* WalletMainView.swift in Sources */,
@@ -440,6 +451,7 @@
 				0DE027E52BA2CE3800095402 /* WalletMainListRow .swift in Sources */,
 				0DE027E02B9AFF7800095402 /* Utils.swift in Sources */,
 				0DE55BCB2B74E1AD00E6E7C3 /* CALayer+Extension.swift in Sources */,
+				0D1E66FD2BAAF12D00D17ED9 /* WalletManageView.swift in Sources */,
 				0D7F10CC2B8236A000264436 /* Font+Extension.swift in Sources */,
 				0DE55BC22B74D5E300E6E7C3 /* RootView.swift in Sources */,
 				0DE027EF2BA4217D00095402 /* String+Extension.swift in Sources */,

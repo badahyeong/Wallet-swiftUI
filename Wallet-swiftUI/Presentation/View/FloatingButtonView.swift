@@ -11,7 +11,6 @@ struct FloatingButtonView: View {
     @State private var isButtonClicked = false
     
     var body: some View {
-        
         ZStack {
             // Background
             Color.black.opacity(isButtonClicked ? 0.7 : 0)// 버튼 누르면 딤 처리
@@ -26,17 +25,22 @@ struct FloatingButtonView: View {
                 VStack(alignment: .trailing) {
                     Spacer()
                     if isButtonClicked {
-                        FloatingMenuView(image: "ic_floating_property", menuName: "View all assets")
-                            .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.1)))
-                        FloatingMenuView(image: "ic_floating_setting", menuName: "Wallet management")
-                            .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.3)))
-                        FloatingMenuView(image: "ic_floating_add_coin", menuName: "Coin management")
-                            .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.5)))
+                        NavigationLink(destination: ViewAllAssetsView()) {
+                            FloatingMenuView(type: .all)
+                                .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.1)))
+                        }
+                        NavigationLink(destination: WalletManageView()) {
+                            FloatingMenuView(type: .wallet)
+                                .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.3)))
+                        }
+                        NavigationLink(destination: CoinManageView()) {
+                            FloatingMenuView(type: .coin)
+                                .transition(AnyTransition.opacity.animation(.easeInOut(duration: 0.5)))
+                        }
                         
                     }
                     Button(action: {
                         // 버튼을 눌렀을 때 실행될 액션 작성
-                        
                         print("Clicked Floating Button")
                         self.isButtonClicked.toggle()
                     }) {
@@ -53,6 +57,9 @@ struct FloatingButtonView: View {
             }
             .padding(.trailing, 15)
             .padding(.bottom, 18)
+            .onDisappear {
+                isButtonClicked = false
+            }
         }
     }
     
@@ -60,25 +67,60 @@ struct FloatingButtonView: View {
 
 /* 플로팅 버튼 누르면 노출되는 메뉴 아이템 */
 struct FloatingMenuView: View {
-    var image: String
-    var menuName: String
+    var type: FloatingMenuType
     
     var body: some View {
-        HStack {
-            Text(menuName)
+        HStack(spacing: 10){
+            Text(type.title)
                 .font(.notoSansMedium15)
                 .foregroundStyle(.white)
             ZStack {
                 Circle()
                     .foregroundColor(.clearBlue)
                     .frame(width: 52, height: 52)
-                Image(image)
+                Image(type.image)
+                
                 
             }
         }
+    }
+    
+    
+    struct FloatingButtonStyle: ButtonStyle {
+        func makeBody(configuration: Configuration) -> some View {
+            configuration.label
+                .padding()
+                .background(Color.blue)
+                .clipShape(Circle())
+                .shadow(radius: 5)
+        }
+        
     }
 }
 
 #Preview {
     FloatingButtonView()
+}
+
+
+enum FloatingMenuType {
+    case all
+    case wallet
+    case coin
+    
+    var title: String {
+        switch self {
+        case .all: return "View all assets"
+        case .wallet: return "Wallet management"
+        case .coin: return "Coin management"
+        }
+    }
+    
+    var image: String {
+        switch self {
+        case .all: return "ic_floating_property"
+        case .wallet: return "ic_floating_setting"
+        case .coin: return "ic_floating_add_coin"
+        }
+    }
 }

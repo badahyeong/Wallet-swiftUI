@@ -14,40 +14,39 @@ struct WalletMainView: View {
     @StateObject var viewModel = WalletMainViewModel()
     
     var body: some View {
-        ZStack (alignment: .bottomTrailing){
-            VStack(spacing: 0) {
-                Spacer().frame(height: 1)
-                VStack {
-                    HStack(spacing: 3){ //텍스트 사이 여백조절은 spacing 사용
-                        Text("사용자's")
-                            .foregroundStyle(Color.nightBlue)
-                            .padding(.leading, 22)
-                        Text("Wallet1")
-                            .foregroundStyle(Color.clearBlue)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                        
+            ZStack (alignment: .bottomTrailing){
+                VStack(spacing: 0) {
+                    Spacer().frame(height: 1)
+                    VStack {
+                        HStack(spacing: 3){ //텍스트 사이 여백조절은 spacing 사용
+                            Text("사용자's")
+                                .foregroundStyle(Color.nightBlue)
+                                .padding(.leading, 22)
+                            Text("Wallet1")
+                                .foregroundStyle(Color.clearBlue)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                            
+                        }
+                        .font(.notoSansBold22)
                     }
-                    .font(.notoSansBold22)
+                    .frame(height: 58)
+                    
+                    List {
+                        ListHeaderView(viewModel: viewModel)
+                        ForEach(viewModel.coinData, id: \.self) { item in
+                            WalletMainListRow(coinInfo: item)
+                                .listRowInsets(EdgeInsets(top: 0, leading: 22, bottom: 14, trailing: 22))
+                        }
+                        .listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
+                    }
+                    .listStyle(.plain)
                 }
-                .frame(height: 58)
+                .background(Color.veryLightBlue)
+                FloatingButtonView()
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                 
-                List {
-                    ListHeaderView(viewModel: viewModel)
-                    ForEach(viewModel.coinData, id: \.self) { item in
-                        WalletMainListRow(coinInfo: item)
-                            .listRowInsets(EdgeInsets(top: 0, leading: 22, bottom: 14, trailing: 22))
-                    }
-                    .listRowBackground(Color.clear)
-                    .listRowSeparator(.hidden)
-                }
-                .listStyle(.plain)
             }
-            .background(Color.veryLightBlue)
-            FloatingButtonView()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                
-            
-        }
         
     }
 }
